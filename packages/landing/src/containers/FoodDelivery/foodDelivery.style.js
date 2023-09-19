@@ -1,6 +1,18 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
+.boltHeading{
+  font-size: 45px !important;
+  color: #fff;
+}
+.textBolt{
+  color: #C1C3C4;
+  font-weight: 800;
+}
+.boltcontainer{
+  display: flex;
+  gap: 50px;
+}
   * {
     box-sizing: border-box;
   }
@@ -222,7 +234,7 @@ export const ContentWrapper = styled.div`
         }
         &.is-current {
           a {
-            color: #01F7F7;
+            color: #01f7f7;
           }
         }
         a {
@@ -233,7 +245,7 @@ export const ContentWrapper = styled.div`
           font-size: 20px;
           color: #fff;
           &:hover {
-            color: #01F7F7;
+            color: #01f7f7;
           }
         }
       }

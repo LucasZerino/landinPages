@@ -1,23 +1,23 @@
-import React from 'react';
+import React from "react";
 
-import Container from 'common/components/UI/ContainerTwo';
-import CheckBox from 'common/components/Checkbox';
-import Heading from 'common/components/Heading';
-import Button from 'common/components/Button';
-import Input from 'common/components/Input';
-import Text from 'common/components/Text';
+import Container from "common/components/UI/ContainerTwo";
+import CheckBox from "common/components/Checkbox";
+import Heading from "common/components/Heading";
+import Button from "common/components/Button";
+import Input from "common/components/Input";
+import Text from "common/components/Text";
 
 import SectionWrapper, {
   FooterInner,
   Content,
   SubscriptionForm,
-} from './subscribe.style';
+} from "./subscribe.style";
 
-import bg1 from 'common/assets/image/agencyModern/cta/1.png';
-import bg2 from 'common/assets/image/agencyModern/cta/2.png';
-import bg3 from 'common/assets/image/agencyModern/cta/3.png';
-import bg4 from 'common/assets/image/agencyModern/cta/4.png';
-import bg5 from 'common/assets/image/agencyModern/cta/5.png';
+import bg1 from "common/assets/image/agencyModern/cta/1.png";
+import bg2 from "common/assets/image/agencyModern/cta/2.png";
+import bg3 from "common/assets/image/agencyModern/cta/3.png";
+import bg4 from "common/assets/image/agencyModern/cta/4.png";
+import bg5 from "common/assets/image/agencyModern/cta/5.png";
 
 const Subscribe = () => {
   return (
@@ -25,23 +25,23 @@ const Subscribe = () => {
       <Container>
         <FooterInner>
           <Content>
-            <Heading as="h3" content="Like our service? Subscribe us" />
-            <Text content="We have more than thousand of creative entrepreneurs and stat joining our business" />
+            <Heading as="h3" content="Quer participar de tudo isso?" />
+            <Text content="💥 Não espere mais. Junte-se a nós na jornada do sucesso e da satisfação do cliente! 💥" />
           </Content>
           <SubscriptionForm>
             <div>
               <Input
                 inputType="email"
-                placeholder="Enter Email Address"
+                placeholder="Insira sua forma de contato"
                 iconPosition="left"
                 aria-label="email"
               />
-              <Button title="Subscribe" type="submit" />
+              <Button title="ENVIAR" type="submit" />
             </div>
             <CheckBox
               id="remember"
               htmlFor="remember"
-              labelText="Don’t provide any promotional message."
+              labelText="Quero receber uma proposta!"
             />
           </SubscriptionForm>
         </FooterInner>

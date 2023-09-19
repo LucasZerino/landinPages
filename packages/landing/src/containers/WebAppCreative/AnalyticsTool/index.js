@@ -1,9 +1,9 @@
-import React, { Fragment } from 'react';
+import React, { Fragment } from "react";
 
-import Text from 'common/components/Text';
-import Heading from 'common/components/Heading';
-import NextImage from 'common/components/NextImage';
-import Container from 'common/components/UI/ContainerTwo';
+import Text from "common/components/Text";
+import Heading from "common/components/Heading";
+import NextImage from "common/components/NextImage";
+import Container from "common/components/UI/ContainerTwo";
 import {
   Accordion,
   AccordionItem,
@@ -12,26 +12,37 @@ import {
   IconWrapper,
   OpenIcon,
   CloseIcon,
-} from 'common/components/Accordion';
-import { Icon } from 'react-icons-kit';
-import { thinDown } from 'react-icons-kit/entypo/thinDown';
-import { thinRight } from 'react-icons-kit/entypo/thinRight';
-import SectionWrapper, { ContentWrapper } from '../../AgencyModern/Features/features.style';
-import feature from 'common/assets/image/agencyModern/features/feature.png';
-import WowEmoji from 'common/assets/image/agencyModern/features/emoji-wow.png';
-import data from 'common/data/AgencyModern';
+} from "common/components/Accordion";
+import { Icon } from "react-icons-kit";
+import { thinDown } from "react-icons-kit/entypo/thinDown";
+import { thinRight } from "react-icons-kit/entypo/thinRight";
+import SectionWrapper, {
+  ContentWrapper,
+} from "../../AgencyModern/Features/features.style";
+import feature from "common/assets/image/bolt/cashback2.png";
+import data from "common/data/AgencyModern";
 
 const Features = () => {
   return (
     <SectionWrapper id="feature">
       <Container>
-        <ContentWrapper>
-          <div className="image">
-            <NextImage src={feature} alt="Feature Image" />
+        <ContentWrapper className="boltcontainer">
+          <div className="boltImage">
+            <NextImage
+              className="boltImage2"
+              src={feature}
+              alt="Feature Image"
+            />
           </div>
           <div className="content">
-            <Heading content="Meet our exciting features that make you wow 😮" />
-            <Text content="Build an incredible workplace and grow your business with all-in-one platform with amazing contents." />
+            <Heading
+              className="boltHeading"
+              content="Como funciona o CashBack para restaurantes?"
+            />
+            <Text
+              className="textBolt"
+              content="O BoltBank Cashback oferece uma plataforma gratuita que permite a bares, restaurantes do Rio Grande do Norte, criar seu próprio programa de fidelização com cashback."
+            />
             <Accordion preExpanded={[0]}>
               <Fragment>
                 {data.accordion.map((item, index) => (

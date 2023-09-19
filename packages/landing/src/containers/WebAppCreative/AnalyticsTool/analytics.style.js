@@ -1,9 +1,9 @@
-import { Parallax } from 'react-parallax';
-import styled from 'styled-components';
-import { rgba } from 'polished';
-import { themeGet } from '@styled-system/theme-get';
-import parallaxBg from 'common/assets/image/webAppCreative/parallax-1.png';
-import polygon from 'common/assets/image/webAppCreative/polygon.png';
+import { Parallax } from "react-parallax";
+import styled from "styled-components";
+import { rgba } from "polished";
+import { themeGet } from "@styled-system/theme-get";
+import parallaxBg from "common/assets/image/webAppCreative/parallax-1.png";
+import polygon from "common/assets/image/webAppCreative/polygon.png";
 
 const Section = styled(Parallax)`
   /* background: #373754 url(${parallaxBg?.src}) no-repeat fixed center center / cover; */
@@ -99,7 +99,7 @@ export const Content = styled.div`
     text-align: center;
   }
   .subtitle {
-    color: ${themeGet('colors.secondary')};
+    color: ${themeGet("colors.secondary")};
     font-size: 16px;
     font-weight: 700;
     line-height: 22px;
@@ -110,7 +110,7 @@ export const Content = styled.div`
     }
   }
   h2 {
-    color: ${themeGet('colors.white')};
+    color: ${themeGet("colors.white")};
     font-weight: 800;
     font-size: 40px;
     line-height: 1.25;
@@ -133,7 +133,7 @@ export const Content = styled.div`
     }
   }
   .description {
-    color: ${themeGet('colors.textColorLight')};
+    color: ${themeGet("colors.textColorLight")};
     font-weight: 500;
     font-size: 16px;
     line-height: 2;
@@ -153,13 +153,13 @@ export const Content = styled.div`
     }
     button {
       background-color: transparent;
-      border: 1px solid ${rgba('#fffefe', 0.4)};
+      border: 1px solid ${rgba("#fffefe", 0.4)};
       border-radius: 7px;
-      color: ${themeGet('colors.white')};
+      color: ${themeGet("colors.white")};
       :hover {
-        background-color: ${themeGet('colors.primary')};
-        border-color: ${themeGet('colors.primary')};
-        color: ${themeGet('colors.white')};
+        background-color: ${themeGet("colors.primary")};
+        border-color: ${themeGet("colors.primary")};
+        color: ${themeGet("colors.white")};
       }
     }
     i {
@@ -187,8 +187,8 @@ export const Features = styled.ul`
     margin-right: auto;
   }
   li {
-    color: ${themeGet('colors.white')};
-    font-family: 'Inter', sans-serif;
+    color: ${themeGet("colors.white")};
+    font-family: "Inter", sans-serif;
     font-weight: 500;
     font-size: 17px;
     line-height: 21px;

@@ -4,7 +4,7 @@
     "navMenu": [
       {
         "id": 1,
-        "label": "Home", 
+        "label": "Home",
         "path": "#home",
         "offset": "80"
       },
